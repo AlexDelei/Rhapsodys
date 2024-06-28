@@ -85,9 +85,20 @@ a {
   filter: drop-shadow(0 0 3px rgb(122, 53, 53)) drop-shadow(0 0 3px grey);
 }
 
+.logo:hover img{
+  transform: translate(-10px, -10px); 
+}
+
 
 .logo2 {
   max-width: 150px;
+  filter: drop-shadow(0 0 15px rgba(0, 123, 255, 0.8));
+}
+
+/* Stronger glow and diagonal movement */
+.logo2:hover img {
+  transform: translate(-10px, -10px); /* Move the logo upwards and to the left */
+  filter: drop-shadow(0 0 30px rgba(255, 255, 255, 1));
 }
 
 
@@ -505,6 +516,15 @@ nav {
 .footer__links a:hover {
   color: var(--white);
 }
+
+/* .num {
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.num :hover {
+  color: var(--white);
+} */
 
 .footer__socials {
   margin-top: 2rem;
