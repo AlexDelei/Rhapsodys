@@ -81,7 +81,7 @@ a {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 300px;
   filter: drop-shadow(0 0 3px rgb(122, 53, 53)) drop-shadow(0 0 3px grey);
 }
 
